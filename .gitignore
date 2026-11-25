@@ -1,0 +1,19 @@
+# Python virtual environment & bytecode cache (recreatable, never commit)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local runtime & hook debug logs
+harness/logs/
+
+# Binary SQLite memory database & journal files (local runtime state)
+# Note: Human-readable Markdown files in memory/ and documents/ ARE tracked
+# for backup in your private GitHub repository.
+memory/brain.db
+memory/brain.db-shm
+memory/brain.db-wal
+
+# OS clutter
+.DS_Store
+Thumbs.db
